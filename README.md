@@ -1,2 +1,1 @@
-# Brain-MRI-data-sorting-and-artifacts-detection
-Add detailed information after the paper is received
+# This is the official implementation of "" published in Journal of Medical Systems.
