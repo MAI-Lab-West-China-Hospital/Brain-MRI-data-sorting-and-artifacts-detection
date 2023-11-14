@@ -1,2 +1,3 @@
-# This is the official implementation of "" published in Journal of Medical Systems.
+# A lightweight brain MRI sorting model
+## This is the official implementation of "" published in Journal of Medical Systems.
 ## Prediction with trained model
