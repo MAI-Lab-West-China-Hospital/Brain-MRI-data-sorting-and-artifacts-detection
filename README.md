@@ -17,3 +17,6 @@ The following artifacts can be detected with this model
  ![labels](labels.png)
 
 ## How to use
+1. Install the dependencies
+`pip install -r requirement.txt`
+
