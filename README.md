@@ -2,14 +2,14 @@
 
 This is the official implementation of “A lightweight deep learning framework for automatic MRI data sorting and artifacts detection” published in Journal of Medical Systems.
 
-The following contrast and perspective can be classified by this model
-- T2 weighted in axial, coronal and saggital
-- T1 weighted in axial and saggital
-- Post contrast T1 weighted in axial, coronal and saggital
-- FLAIR in axial and coronal
-- Magnetic Resonance Angiography (MRA) in axial
+Brain MRI volumes with or without pathology in the following contrasts and perspectives can be classified by this model
+- T2 weighted in axial, coronal and saggital planes
+- T1 weighted in axial and saggital planes
+- Post-contrast T1 weighted in axial, coronal and saggital planes
+- FLAIR in axial and coronal planes
+- Magnetic Resonance Angiography (MRA) in axial plane
 
-The following artifacts can be detected by this model
+The following artifacts can be detected with this model
 - Motion artifact
 - Alias artifact
 - Metal artifact
