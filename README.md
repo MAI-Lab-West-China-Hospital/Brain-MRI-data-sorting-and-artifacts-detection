@@ -1,6 +1,6 @@
 # Fully automated brain MRI sorting and artifacts detection based on image contents
 
-This is the official implementation of “A lightweight deep learning framework for automatic MRI data sorting and artifacts detection” published in Journal of Medical Systems [DOI:10.1007/s10916-023-02017-z](https://link.springer.com/article/10.1007/s10916-023-02017-z).
+This is the official implementation of “A lightweight deep learning framework for automatic MRI data sorting and artifacts detection” published in Journal of Medical Systems ([DOI:10.1007/s10916-023-02017-z](https://link.springer.com/article/10.1007/s10916-023-02017-z)).
 
 Brain MRI volumes with or without pathology in the following contrasts and perspectives can be classified by this model
 - T2 weighted in axial, coronal and saggital planes
