@@ -26,3 +26,9 @@ It is highly recommended to install it in a virtual environment
 `python MRI_sort.py --input /PATH/TO/NIFTIs --output /PATH/TO/SORTED/NIFTIs`
 
 ## Train with own data and custom categories
+It is highly recommended to perform pre-train with [Distributed Data Parallel](https://pytorch.org/docs/stable/notes/ddp.html) using NVIDIA Container on server equiped with multiple GPUs.
+1. Pull the MONAI docker image
+`docker pull projectmonai/monai:1.1.0`
+2. Create the custom labels file according to [example](https://github.com/MAI-Lab-West-China-Hospital/Brain-MRI-data-sorting-and-artifacts-detection/blob/main/pretrained_model/labelmap.csv)
+2. Modify PATHs in run_docker.sh accordingly, then run ```run_docker.sh```
+3. Run ```run_ddp_train.sh``` insider docker
